@@ -341,6 +341,7 @@ DEFAULT_CONFIG: immutabledict[str, Any] = immutabledict(
                     ),
                     "thunderbird": immutabledict(
                         {
+                            "project:comm:thunderbird:releng:addons.thunderbird.net:server:production": "all-release-branches",
                             "project:comm:thunderbird:releng:balrog:server:nightly": "all-nightly-branches",
                             "project:comm:thunderbird:releng:balrog:server:beta": "beta",
                             "project:comm:thunderbird:releng:balrog:server:esr": "esr",
